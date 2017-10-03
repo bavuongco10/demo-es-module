@@ -1,0 +1,19 @@
+{
+  "name": "demo-es-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index.mjs"
+  },
+  "engines": {
+    "node": ">=8.5"
+  },
+  "engineStrict": true,
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sleep-promise": "^2.0.0"
+  }
+}
